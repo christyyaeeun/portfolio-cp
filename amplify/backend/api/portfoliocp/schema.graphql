@@ -1,0 +1,15 @@
+type Contact
+  @model(mutations: { create: "createContact" })
+  @auth(rules: [{ allow: public, operations: [create] }]) {
+  id: ID!
+  name: String!
+  email: String!
+  message: String
+}
+
+type Project @model {
+id: ID!
+title: String!
+image_url: String
+description: String
+}

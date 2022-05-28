@@ -1,0 +1,40 @@
+/* CONTACTFORM */
+
+.css-dt9s1g {
+    justify-content: center !important;
+}
+
+.contact-box {
+    box-shadow: 5px 5px 15px rgb(186 126 126 / 50%)
+}
+
+#cursive-contact {
+max-width: 400px;
+}
+
+@media (max-width:576px) {
+    #contact-box {
+        max-width: 350px;
+    }
+}
+
+
+@media (max-width: 756px) {
+    #contact-wrap {
+        height: 100vh;
+    }
+
+    .css-dt9s1g>*:not(style) {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (min-width:756px) {
+  #cursive-contact {
+    width: 75%
+  }
+
+    #contact-box {
+        max-width: 450px;
+    }
+}
